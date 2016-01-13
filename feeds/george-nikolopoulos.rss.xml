@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Programming, Philosophy and stuff</title><link>http://geonik.github.io/</link><description></description><atom:link href="http://geonik.github.io/feeds/george-nikolopoulos.rss.xml" rel="self"></atom:link><lastBuildDate>Tue, 12 Jan 2016 16:03:00 +0200</lastBuildDate><item><title>Hello Blog</title><link>http://geonik.github.io/hello-blog.html</link><description>&lt;p&gt;This is the first post for my blog.&lt;/p&gt;
+&lt;p&gt;So in the tradition set by &lt;a href="https://en.wikipedia.org/wiki/C_%28programming_language%29#K.26R_C"&gt;K&amp;amp;R&lt;/a&gt;, 
+hello blog!&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">George Nikolopoulos</dc:creator><pubDate>Tue, 12 Jan 2016 16:03:00 +0200</pubDate><guid>tag:geonik.github.io,2016-01-12:hello-blog.html</guid></item></channel></rss>
