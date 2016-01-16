@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en"
+>
+<head>
+    <title>Github disaster migration - Programming, Philosophy and stuff</title>
+    <!-- Using the latest rendering mode for IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+<link rel="canonical" href="http://geonik.github.io/github-disaster-migration.html">
+
+        <meta name="author" content="George Nikolopoulos" />
+        <meta name="description" content="How do you get out of github?" />
+
+        <meta property="og:site_name" content="Programming, Philosophy and stuff" />
+        <meta property="og:type" content="article"/>
+        <meta property="og:title" content="Github disaster migration"/>
+        <meta property="og:url" content="http://geonik.github.io/github-disaster-migration.html"/>
+        <meta property="og:description" content="How do you get out of github?"/>
+        <meta property="article:published_time" content="2016-01-16" />
+            <meta property="article:section" content="misc" />
+            <meta property="article:author" content="George Nikolopoulos" />
+
+
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="http://geonik.github.io/theme/css/bootstrap.paper.min.css" type="text/css"/>
+    <link href="http://geonik.github.io/theme/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="http://geonik.github.io/theme/css/pygments/native.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://geonik.github.io/theme/css/style.css" type="text/css"/>
+
+        <link href="http://geonik.github.io/feeds/all.rss.xml" type="application/rss+xml" rel="alternate"
+              title="Programming, Philosophy and stuff RSS Feed"/>
+
+</head>
+<body>
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="http://geonik.github.io/" class="navbar-brand">
+Programming, Philosophy and stuff            </a>
+        </div>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                        <li class="active">
+                            <a href="http://geonik.github.io/category/misc.html">Misc</a>
+                        </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="http://geonik.github.io/archives.html"><i class="fa fa-th-list"></i><span class="icon-label">Archives</span></a></li>
+              <li><a href="http://geonik.github.io/feeds/all.rss.xml">RSS</a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+</div> <!-- /.navbar -->
+<!-- Banner -->
+<!-- End Banner -->
+<div class="container">
+    <div class="row">
+        <div class="col-sm-9">
+
+    <section id="content">
+        <article>
+            <header class="page-header">
+                <h1>
+                    <a href="http://geonik.github.io/github-disaster-migration.html"
+                       rel="bookmark"
+                       title="Permalink to Github disaster migration">
+                        Github disaster migration
+                    </a>
+                </h1>
+            </header>
+            <div class="entry-content">
+                <div class="panel">
+                    <div class="panel-body">
+<footer class="post-info">
+    <span class="label label-default">Date</span>
+    <span class="published">
+        <i class="fa fa-calendar"></i><time datetime="2016-01-16T14:33:00+02:00"> Sat 16 January 2016</time>
+    </span>
+
+
+
+    
+</footer><!-- /.post-info -->                    </div>
+                </div>
+                <p>I read recently the <a href="https://github.com/dear-github/dear-github">dear github</a>, document
+which presents some issues developers have with github and hints that the solution
+to these problems could be the open sourcing of the platform since said developers could
+then submit patches to address the issues they have. It is also signed by quite a few developers
+that are using github, and should I had used github more frequently I would sign too.</p>
+<p>This reminded me of another criticism of github that I have been thinking of lately.
+<em>How diffcult or easy is a migration from github?</em></p>
+<p>The scenario I think of is the following. You have been developing a project on github.
+Probably you have a few contributors that use all the facilities of github to collaborate.
+Pull requests, issue tracking, wiki hosting, git hosting etc.</p>
+<p>One fine day you wake up and you cannot login to github, it is a "server not found" message.
+You say to yourself, no way. Github messed up with their DNS resolution? No no it's my fault
+somehow, I shouldn't have mocked around with dnsmasq last night. Just to be sure you check
+with your favorite search engine the web for "github outage" and voilà!
+You see the most absurd news posts. Aliens landed on earth last night with large planet destroyers
+in orbit ready to annihilate the human civilization. But, they decided to have a laugh first.
+They started wiping out <em>every</em> digital imprint of famous web sites and internet services.
+Being superior technologically they scanned all of the internet in 10ms and started from the shell
+of the net to the core. First target was github. It went out in 1ms.
+All digital imprint of github was deleted.  No trace remains. Just as if it had never existed.
+Now being a stereotypical, ego centric nerd you go into a rage: "What? They wiped out <em>my project?</em>".
+"How can I recover the project's work and those of the fellow contributors from what I have on my own computer?"
+not noticing the fact that the entire planet is going to kick the bucket in a matter of hours.</p>
+<p>Aside from the comic relief, this question is a valid one and one that I have actually considered. A more real world
+example could be thought of, like a take down of a project as the result of legal proceedings, which
+if memory serves it has actually happened in the past.</p>
+<p>More than that, can we replicate the work in github relying only on open source technologies
+and public protocols?</p>
+<p>I have not researched the technical side of it. I am sure there are technical solutions that work
+to some extent.  Just off the top of my head my guess is that a github project could be replicated using HTTP served by nginx ,
+mailing lists hosted on mailman for issues and pull requests replication and  static site generators like pelican
+for wiki content and git for the repository.</p>
+<p>The deeper, philosophical question if you please, is: Can we replicate, even in
+archival form, the sum of the information github hosts for a given project? Is it possible to
+write a script that scrapes your project daily and updates an off site replica? Should the disaster
+happen could you point to an ip address or a domain name and be able to say to your users: "Don't worry guys and girls.
+All work up until last night has been saved on http://my-project.com" .
+Is the walled garden impossible to cross without leaving something behind? The ever changing technical landscape
+formed by the open source community as whole that addresses these issues is, I believe, the best way
+to add to the credibility and weight the <a href="https://github.com/dear-github/dear-github">dear github</a> complain carries.</p>
+<p>Finally I can't help but notice the deep irony of using github to complain about github services.</p>
+<p>And yes, I am aware that the same irony applies to this blog post being hosted on github. ;)</p>
+            </div>
+            <!-- /.entry-content -->
+        </article>
+    </section>
+
+        </div>
+        <div class="col-sm-3" id="sidebar">
+            <aside>
+
+<section class="well well-sm">
+    <ul class="list-group list-group-flush">
+
+
+
+            <li class="list-group-item"><a href="http://geonik.github.io/"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Tags</span></h4></a>
+                <ul class="list-group " id="tags">
+                </ul>
+            </li>
+    <li class="list-group-item"><h4><i class="fa fa-external-link-square fa-lg"></i><span class="icon-label">Links</span></h4>
+      <ul class="list-group" id="links">
+        <li class="list-group-item">
+            <a href="http://getpelican.com/" target="_blank">
+                Pelican
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="http://python.org/" target="_blank">
+                Python.org
+            </a>
+        </li>
+        <li class="list-group-item">
+            <a href="http://jinja.pocoo.org/" target="_blank">
+                Jinja2
+            </a>
+        </li>
+      </ul>
+    </li>
+    </ul>
+</section>
+            </aside>
+        </div>
+    </div>
+</div>
+<footer>
+   <div class="container">
+      <hr>
+      <div class="row">
+         <div class="col-xs-10">&copy; 2016 George Nikolopoulos
+            &middot; Powered by <a href="https://github.com/DandyDev/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
+            <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
+            <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>
+         <div class="col-xs-2"><p class="pull-right"><i class="fa fa-arrow-up"></i> <a href="#">Back to top</a></p></div>
+      </div>
+   </div>
+</footer>
+<script src="http://geonik.github.io/theme/js/jquery.min.js"></script>
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="http://geonik.github.io/theme/js/bootstrap.min.js"></script>
+
+<!-- Enable responsive features in IE8 with Respond.js (https://github.com/scottjehl/Respond) -->
+<script src="http://geonik.github.io/theme/js/respond.min.js"></script>
+
+
+</body>
+</html>
